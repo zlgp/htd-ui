@@ -1,0 +1,9 @@
+#忽略的目录
+examples/
+packages/
+public/
+
+#忽略的文件
+vue.config.js
+babel.config.js
+*.map
