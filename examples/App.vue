@@ -2,11 +2,20 @@
   <div id="app">
     <div id="nav">
       <htd-button type="success">成功按钮</htd-button>
+      <htd-switch v-model="value"></htd-switch>
     </div>
     <router-view />
   </div>
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      value: true
+    };
+  }
+};
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
