@@ -3,6 +3,9 @@
     <div id="nav">
       <htd-button type="success">成功按钮</htd-button>
       <htd-switch v-model="value"></htd-switch>
+      <htd-pagination   :page-count="20">
+
+      </htd-pagination>
     </div>
     <router-view />
   </div>

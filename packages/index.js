@@ -9,6 +9,12 @@ import CheckBox from "./checkbox.vue"
 import CheckBoxGroup from "./checkbox-group.vue"
 import Form from "./form.vue"
 import FormItem from "./form-item.vue"
+import Link from "./link.vue"
+import Carousel from "./carousel.vue"
+import CarouselItem from "./carousel-item.vue"
+import Rate from "./rate.vue"
+import Tag from "./tag.vue"
+import Pagination from "./pagination.vue"
 import './fonts/iconfont.css'
 
 const components = [
@@ -21,7 +27,14 @@ const components = [
     CheckBox,
     CheckBoxGroup,
     Form,
-    FormItem
+    FormItem,
+    Link,
+    Carousel,
+    CarouselItem,
+    Rate,
+    Tag,
+    Pagination
+
 
 ]
 const install = function (Vue) {
